@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="JavaBuzzTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2014-11-18T11:38:47" hostname="BeautifulExpensive.local" time="0.0030">
+<testsuite name="JavaBuzzTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2014-11-18T11:50:48" hostname="BeautifulExpensive.local" time="0.0030">
   <properties/>
-  <testcase name="isDivisibleByThree" classname="JavaBuzzTests" time="0.0020"/>
+  <testcase name="isDivisibleByThree" classname="JavaBuzzTests" time="0.0010"/>
   <testcase name="isDivisibleByFive" classname="JavaBuzzTests" time="0.0"/>
+  <testcase name="isNotDivisibleByFive" classname="JavaBuzzTests" time="0.0"/>
   <testcase name="isNotDivisibleByThree" classname="JavaBuzzTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

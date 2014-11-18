@@ -6,14 +6,26 @@ import static org.junit.Assert.assertTrue;
 public class JavaBuzzTests {
 
     @Test
-    public void isDivisibleByThree() {
-        JavaBuzz javabuzz = new JavaBuzz();
-        assertTrue(javabuzz.isDivisibleByThree(3));
+    public void
+        isDivisibleByThree() {
+            JavaBuzz javabuzz = new JavaBuzz();
+            assertTrue(javabuzz.isDivisibleByThree(3));
     }
     @Test
-    public void isNotDivisibleByThree() {
-        JavaBuzz javabuzz = new JavaBuzz();
-        assertFalse(javabuzz.isDivisibleByThree(1));
+    public void
+        isNotDivisibleByThree() {
+            JavaBuzz javabuzz = new JavaBuzz();
+            assertFalse(javabuzz.isDivisibleByThree(1));
+    }
+    @Test
+    public void
+        isDivisibleByFive() {
+            JavaBuzz javabuzz = new JavaBuzz();
+            assertTrue(javabuzz.isDivisibleByFive(5));
+    }
+    @Test
+    public void
+        isNotDivisibleByFive() {
     }
 
 
